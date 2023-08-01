@@ -1,0 +1,54 @@
+
+.main{
+	height: 2000px;
+}
+
+.header{
+	background: #f00;
+	padding: 5px;
+	display: flex;
+	justify-content: center;
+}
+
+.header ul{
+	list-style-type: none;
+}
+
+.header ul li{
+	display: inline-block;
+	margin-left: 20px;
+}
+
+.header ul li a{
+	text-decoration: none;
+	font-size: 22px;
+	color: #fff;
+}
+
+.boxes{
+	display: flex;
+	justify-content: space-evenly;
+	padding: 50px 0;
+}
+
+.boxes .box{
+	border: 2px solid #000;
+	width: 27%;
+	padding: 10px;
+	text-align: center;
+	box-shadow: 0px 0px 16px 0px #000;
+}
+
+.subscribe{
+	height: 300px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background:linear-gradient(#000000a3, #000000b8), url(tech.jpg);
+    background-size:cover;
+
+}
+
+.subscribe h1{
+	color: #fff;
+}
